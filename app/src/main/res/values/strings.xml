@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppConteoElectoral</string>
+    <string name="BotonSiguiente">Siguiente</string>
+    <string name="BotonAnterior">Anterior</string>
+</resources>

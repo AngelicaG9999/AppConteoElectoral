@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:onClick="Siguiente"
+    tools:context=".VotacionesView">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="347dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="350dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Seleccione un candidato:"
+        android:textColor="#070000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="378dp"
+        android:layout_toLeftOf="@id/button2"
+        android:fontFamily="monospace"
+        android:text="Candidato 1"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/radioButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="320dp"
+        android:fontFamily="monospace"
+        android:text="Candidato 2"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-138dp"
+        android:layout_marginBottom="261dp"
+        android:layout_toRightOf="@id/button2"
+        android:fontFamily="monospace"
+        android:text="Candidato 3"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="500dp"
+        android:layout_marginRight="500dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="monospace"
+        android:text="Votar"
+        android:onClick="ElegirCandidato"
+        app:backgroundTint="#009900"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="59dp"
+        android:fontFamily="monospace"
+        android:onClick="Anterior"
+        android:text="Anterior"
+        android:backgroundTint="@color/white"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="59dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+        android:textColor="#000000"
+        android:onClick="Siguiente"
+        android:text="Siguiente" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="373dp"
+        app:srcCompat="@drawable/daniel_quintero_e1556474347757" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="308dp"
+        app:srcCompat="@drawable/fico2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        app:srcCompat="@drawable/e2076fad7e_sergio_fajardo_2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/col" />
+
+
+</RelativeLayout>
